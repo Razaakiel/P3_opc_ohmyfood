@@ -1,0 +1,19 @@
+{
+  "name": "p3_poulain_yoann",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch ./Razaak/OneDrive/Bureau/Openclassroom/P3_poulain_yoann/style.scss:./Razaak/OneDrive/Bureau/Openclassroom/P3_poulain_yoann/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Razaakiel/ohmyfood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Razaakiel/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/Razaakiel/ohmyfood#readme"
+}
