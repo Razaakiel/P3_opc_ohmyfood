@@ -11,6 +11,30 @@ p {
 html, body {
   font-size: 16px;
   box-sizing: border-box;
+  width: 320px;
+  margin: auto;
+  background-color: black;
+}
+
+#bloc_page {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 1em;
+}
+header .logo {
+  padding-left: 2em;
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+}
+.position .position__logo {
+  padding: 15px;
 }
 
 /*# sourceMappingURL=main.css.map */

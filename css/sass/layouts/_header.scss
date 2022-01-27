@@ -1,0 +1,16 @@
+header{
+  padding: 1em;
+
+  & .logo{
+    padding-left: 2em;
+  }
+}
+
+.position{
+  display: flex;
+  justify-content: center;
+
+  & .position__logo{
+    padding: 15px;
+  }
+}
