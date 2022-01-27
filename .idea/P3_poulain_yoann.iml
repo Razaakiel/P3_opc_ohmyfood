@@ -8,5 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Maintainable-CSS-with-SASS-pt04ch02_start+(4) (1)" />
+    <orderEntry type="module" module-name="P2_poulain_code" />
   </component>
 </module>

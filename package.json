@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass":"sass --watch ./Razaak/OneDrive/Bureau/Openclassroom/P3_poulain_yoann/style.scss:./Razaak/OneDrive/Bureau/Openclassroom/P3_poulain_yoann/style.css"
+    "sass":"sass --watch ./css/main.scss ./css/style.css"
   },
   "repository": {
     "type": "git",
