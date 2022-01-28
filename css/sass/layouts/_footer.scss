@@ -1,0 +1,33 @@
+footer{
+  background-color: darken($grey,30);
+  color: $white;
+  padding: 2em 2em;
+
+  & .title_footer{
+    font-family: 'Shrikhand', cursive;
+    font-size: 18px;
+    margin-bottom: 1em;
+  }
+
+    & .icon_footer {
+      margin-right: 0.5em;
+    }
+}
+
+.proposition{
+  @include display;
+  margin-bottom: 0.5em;
+}
+
+.partnership{
+  @include display;
+  margin-bottom: 0.5em;
+
+  & .hand{
+    font-size:11px;
+  }
+}
+
+.lois{
+  margin-bottom: 0.5em;
+}

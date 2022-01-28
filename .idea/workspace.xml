@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd9681e4-6fb4-4ed4-a459-a6a01202ae41" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/sass/Base/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/sass/layouts/_localisation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Accueil.html" beforeDir="false" afterPath="$PROJECT_DIR$/Accueil.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/sass/Base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/Base/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/sass/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sass/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/layouts/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sass/layouts/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/layouts/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/sass/pages/_accueil.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/pages/_accueil.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sass/utils/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/utils/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sass/utils/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/utils/_mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
     </list>
@@ -80,7 +77,7 @@
       <workItem from="1643267780811" duration="12747000" />
       <workItem from="1643285515150" duration="7368000" />
       <workItem from="1643293360221" duration="2182000" />
-      <workItem from="1643350522215" duration="6286000" />
+      <workItem from="1643350522215" duration="19130000" />
     </task>
     <servers />
   </component>
