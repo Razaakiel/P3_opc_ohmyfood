@@ -1,0 +1,21 @@
+.position{
+  background-color: lighten($grey, 37);
+  width:100%;
+  padding: 1em 0;
+  font-weight: bold;
+  box-shadow: 0px -1px 4px $grey;
+
+    & .position__i\&p{
+      display: flex;
+      margin-left: 6.5em;
+    }
+
+      & .position__logo{
+        margin-right: 1em;
+        font-size: 16px;
+      }
+
+        & .position__exemple{
+          margin-top: 0.2em;
+        }
+}
