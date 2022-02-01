@@ -5,3 +5,11 @@ button{
   border-radius: 40px;
   border: none;
 }
+
+.btn_order{
+
+  & button{
+    padding:1em 2em;
+    margin: 2em 0 5em 6.5em;
+  }
+}

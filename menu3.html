@@ -13,7 +13,12 @@
 
     <body>
         <div id="bloc_page">
-            <header>
+            <header class="header_menu">
+                <a href="./Accueil.html">
+                    <div class="arrow_left">
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+                </a>
                 <h1 class="main_title">ohmyfood</h1>
             </header>
 
@@ -22,13 +27,13 @@
                     <div class="menu">
                         <div class="favourite_restaurant">
                             <h2 class="title_menu">À la française</h2>
-                                <div class="icon_heart">
-                                    <div class="hearth"><i class="far fa-heart"></i></div>
-                                </div>
+                            <div class="icon_heart">
+                                <div class="hearth"><i class="far fa-heart"></i></div>
+                            </div>
                         </div>
-                                    <h4 class="title_appetizer">ENTREES</h4>
+                        <h4 class="title_appetizer title_all">ENTRÉES</h4>
                                         <div class="appetizer">
-                                            <div class="appetizer__one">
+                                            <div class="appetizer__one appetizer__all">
                                                 <div class="appetizer__name">
                                                     <div class="name_appetizer"><p>Tartare de poulpe acidulé</p></div>
                                                     <div class="info_appetizer"><p>Aux zests d'orange</p></div>
@@ -36,15 +41,15 @@
                                                 <div class="price"><p>25€</p></div>
                                             </div>
 
-                                            <div class="appetizer_two">
+                                            <div class="appetizer__two appetizer__all">
                                                 <div class="appetizer__name">
                                                     <div class="name_appetizer"><p>Velouté de légumes d'antan</p></div>
-                                                    <div class="info_appetizer"><p>Carotte,panais,topinambour</p></div>
+                                                    <div class="info_appetizer"><p>Carotte, panais, topinambour</p></div>
                                                 </div>
                                                 <div class="price"><p>35€</p></div>
                                             </div>
 
-                                            <div class="appetizer_three">
+                                            <div class="appetizer__three appetizer__all">
                                                 <div class="appetizer__name">
                                                     <div class="name_appetizer"><p>Soupe à l'oignon</p></div>
                                                     <div class="info_appetizer"><p>Revisitée</p></div>
@@ -53,9 +58,9 @@
                                             </div>
                                         </div>
 
-                                        <h4 class="title_main">PLATS</h4>
+                                        <h4 class="title_main title_all">PLATS</h4>
                                         <div class="main">
-                                            <div class="main__one">
+                                            <div class="main__one main__all">
                                                 <div class="main__name">
                                                     <div class="name_main"><p>Coquilles Saint-Jacques</p></div>
                                                     <div class="info_main"><p>Accompagnées d'une purée de panais</p></div>
@@ -63,7 +68,7 @@
                                                 <div class="price"><p>40€</p></div>
                                             </div>
 
-                                            <div class="main_two">
+                                            <div class="main_two main__all">
                                                 <div class="main__name">
                                                     <div class="name_main"><p>Magret de canard</p></div>
                                                     <div class="info_main"><p>Et parmentier de pommes de terres</p></div>
@@ -71,7 +76,7 @@
                                                 <div class="price"><p>35€</p></div>
                                             </div>
 
-                                            <div class="main_three">
+                                            <div class="main_three main__all">
                                                 <div class="main__name">
                                                     <div class="name_main"><p>pigeonneau d'Ille-et-Vilaine</p></div>
                                                     <div class="info_main"><p>Sur sont lit de gnocchis aux légumes</p></div>
@@ -80,9 +85,9 @@
                                             </div>
                                         </div>
 
-                                        <h4 class="title_dessert">DESSERTS</h4>
+                                        <h4 class="title_dessert title_all">DESSERTS</h4>
                                         <div class="dessert">
-                                            <div class="dessert__one">
+                                            <div class="dessert__one dessert__all">
                                                 <div class="dessert__name">
                                                     <div class="name_dessert"><p>Pétales de violettes glacés</p></div>
                                                     <div class="info_dessert"><p>Et purée de noisettes</p></div>
@@ -90,7 +95,7 @@
                                                 <div class="price"><p>18€</p></div>
                                             </div>
 
-                                            <div class="dessert_two">
+                                            <div class="dessert_two dessert__all">
                                                 <div class="dessert__name">
                                                     <div class="name_dessert"><p>Fondant au chocolat</p></div>
                                                     <div class="info_dessert"><p>Revisité</p></div>
@@ -98,7 +103,7 @@
                                                 <div class="price"><p>22€</p></div>
                                             </div>
 
-                                            <div class="dessert_three">
+                                            <div class="dessert_three dessert__all">
                                                 <div class="dessert__name">
                                                     <div class="name_dessert"><p>Millefeuille croustillant</p></div>
                                                     <div class="info_dessert"><p>Myrtilles et pâte d'amande</p></div>
@@ -107,7 +112,7 @@
                                             </div>
                                         </div>
 
-                        <div class="btn">
+                        <div class="btn_order">
                             <button>Commander</button>
                         </div>
                     </div>
@@ -126,7 +131,10 @@
                     </div>
 
                     <div class="lois"><p>Mentions légales</p></div>
-                    <div class="contact"><p>Contact</p></div>
+
+                    <a href="mailto:ohmyfood!@contact.com" class="mail">
+                        <div class="contact"><p>Contact</p></div>
+                    </a>
                 </footer>
         </div>
     </body>

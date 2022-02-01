@@ -9,3 +9,14 @@ header{
   }
 }
 
+.header_menu{
+  display:flex;
+  flex-direction: row;
+  margin: 0 0 -0.5em 0;
+
+  & .arrow_left{
+    margin: 0 4em 0 1em;
+    font-size: 16px;
+  }
+}
+

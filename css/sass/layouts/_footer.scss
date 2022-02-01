@@ -7,6 +7,13 @@ footer{
     font-family: 'Shrikhand', cursive;
     font-size: 18px;
     margin-bottom: 1em;
+
+  & a{
+
+    & :hover{
+      background:none;
+    }
+  }
   }
 
     & .icon_footer {
@@ -30,4 +37,12 @@ footer{
 
 .lois{
   margin-bottom: 0.5em;
+}
+
+.mail{
+  color:$white;
+
+  & :hover{
+    background:none;
+  }
 }
