@@ -5,14 +5,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sass/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sass/layouts/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/layouts/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sass/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/layouts/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sass/pages/_accueil.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/pages/_accueil.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sass/pages/_menu3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/pages/_menu3.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sass/pages/_menu1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/pages/_menu1.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sass/pages/_menu2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/pages/_menu2.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sass/pages/_menu4.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/pages/_menu4.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu1.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu2.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu3.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu4.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,8 @@
       <workItem from="1643467410109" duration="178000" />
       <workItem from="1643609922937" duration="17660000" />
       <workItem from="1643708505327" duration="2435000" />
-      <workItem from="1643713028380" duration="4534000" />
+      <workItem from="1643713028380" duration="5296000" />
+      <workItem from="1643718822763" duration="756000" />
     </task>
     <servers />
   </component>
