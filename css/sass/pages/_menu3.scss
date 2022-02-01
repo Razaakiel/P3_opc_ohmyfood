@@ -1,5 +1,6 @@
 .pictures_head{
   width:100%;
+  height: 200px;
 }
 
 .menu{
@@ -13,7 +14,7 @@
     display:flex;
     margin:0 0 2em 1em;
 
-    & .title_menu{
+    & .title_francaise{
       margin-right: 3.5em;
     }
 
@@ -28,6 +29,7 @@
   margin: 1em 19.3em 0 1em ;
   padding-bottom: 0.2em;
   border-bottom: 3px solid $color-tertiary;
+  color:lighten(black,40);
 }
 
 .appetizer{
