@@ -165,7 +165,8 @@ footer .icon_footer {
 .stages__all {
   display: flex;
   padding: 1.5em 0;
-  border: 1px solid black;
+  border: 0px solid #FFFFFF;
+  box-shadow: 1px 5px 6px #d9d9d9;
   border-radius: 20px;
   background-color: #f3f3f3;
 }
@@ -174,16 +175,18 @@ footer .icon_footer {
   background-color: #9356DC;
   border-radius: 100%;
   padding: 0.3em 0.5em 0em 0.5em;
-  font-size: 10px;
+  font-size: 12px;
   margin-right: 1.5em;
-  margin: 0 1.5em 0 -0.8em;
+  margin: 0 1.5em 0 -0.6em;
 }
 .stages__all .icon {
   color: #808080;
   margin-right: 1.5em;
+  font-size: 16px;
 }
 .stages__all .e_all {
   font-weight: bold;
+  font-size: 15px;
 }
 
 a {
@@ -194,16 +197,31 @@ a :hover {
   background-color: #f2eafb;
 }
 
-.restaurant {
+.store_restaurant {
+  margin-bottom: 4em;
+}
+.store_restaurant .title_secondary {
+  margin-left: 0.6em;
+}
+.store_restaurant .restaurant {
   border-radius: 20px;
   box-shadow: 1px 2px 3px #cecece;
   margin: 1em 1em;
 }
-.restaurant img {
+.store_restaurant .restaurant img {
   width: 100%;
   height: 130px;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
+}
+.store_restaurant .restaurant .ticket {
+  background-color: #99E2D0;
+  width: 20%;
+  padding: 0.2em 0.5em;
+  color: #2c9c81;
+  font-weight: bold;
+  margin: -8em 0 7em 15em;
+  position: relative;
 }
 
 .restaurant_description {
@@ -211,7 +229,8 @@ a :hover {
   margin: 0.5em 1em 0 1em;
 }
 .restaurant_description .restaurant_name {
-  padding-right: 5em;
+  padding-right: 8em;
+  margin-bottom: 1em;
 }
 .restaurant_description span {
   font-weight: bold;
@@ -221,8 +240,12 @@ a :hover {
   padding: 3px 0 0 0;
 }
 
+.hearth_menu3 {
+  padding-left: 1.5em;
+}
+
 .title_palette {
-  margin-right: 1.5em;
+  margin-right: 1.7em;
 }
 
 .pictures_note {
@@ -230,7 +253,7 @@ a :hover {
 }
 
 .title_note {
-  margin-right: 1em;
+  margin-right: 1.5em;
 }
 
 .pictures_head {
@@ -250,7 +273,7 @@ a :hover {
   margin: 0 0 2em 1em;
 }
 .menu .favourite_restaurant .title_francaise {
-  margin-right: 3.5em;
+  margin-right: 3.8em;
 }
 .menu .favourite_restaurant .hearth {
   font-size: 20px;
@@ -326,7 +349,7 @@ a :hover {
 }
 
 .title_delice {
-  margin-right: 1.8em;
+  margin-right: 2em;
 }
 
 /*# sourceMappingURL=style.css.map */

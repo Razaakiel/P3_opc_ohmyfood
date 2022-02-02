@@ -43,7 +43,8 @@
 .stages__all{
   display: flex;
   padding: 1.5em 0;
-  border: 1px solid black;
+  border: 0px solid $white;
+  box-shadow: 1px 5px 6px lighten($grey,35);
   border-radius: 20px;
   background-color: lighten($grey,45);
 
@@ -52,18 +53,20 @@
     background-color: $color-primary;
     border-radius: 100%;
     padding: 0.3em 0.5em 0em 0.5em;
-    font-size: 10px;
+    font-size: 12px;
     margin-right: 1.5em;
-    margin:0 1.5em 0 -0.8em;
+    margin:0 1.5em 0 -0.6em;
   }
 
   & .icon{
     color: $grey;
     margin-right: 1.5em;
+    font-size:16px;
   }
 
   & .e_all{
     font-weight: bold;
+    font-size: 15px;
   }
 }
 
@@ -76,16 +79,34 @@ a{
   }
 }
 
-.restaurant{
-  border-radius: 20px;
-  box-shadow: 1px 2px 3px rgb(206, 206, 206);
-  margin: 1em 1em;
 
+
+.store_restaurant{
+  margin-bottom: 4em;
+
+  & .title_secondary{
+    margin-left: 0.6em;
+  }
+
+  & .restaurant{
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px rgb(206, 206, 206);
+    margin: 1em 1em;
 
     & img{
       @include img;
     }
 
+    & .ticket{
+      background-color: $color-tertiary;
+      width:20%;
+      padding:0.2em 0.5em;
+      color:darken($color-tertiary,35);
+      font-weight:bold;
+      margin: -8em 0 7em 15em;
+      position:relative;
+    }
+  }
 }
 
 .restaurant_description{
@@ -93,7 +114,8 @@ a{
   margin: 0.5em 1em 0 1em;
 
     & .restaurant_name{
-      padding-right: 5em;
+      padding-right: 8em;
+      margin-bottom: 1em;
     }
 
       & span{
@@ -104,6 +126,10 @@ a{
           font-size:20px;
           padding: 3px 0 0 0;
         }
+}
+
+.hearth_menu3{
+  padding-left: 1.5em;
 }
 
 
