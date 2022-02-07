@@ -1,3 +1,7 @@
+/*.section{
+  display: none;
+}*/
+
 .top{
   display:flex;
   flex-direction: column;
@@ -12,10 +16,10 @@
     margin: 2em 1em 0.5em 2em;
   }
 
-    & .top__catch{
-      font-size:16px;
-      margin: 0 1.3em 2em 1.3em;
-    }
+  & .top__catch{
+    font-size:16px;
+    margin: 0 1.3em 2em 1.3em;
+  }
 
 }
 
@@ -51,7 +55,7 @@
   & .num{
     color: $white;
     background-color: $color-primary;
-    border-radius: 100%;
+    border-radius: 50%;
     padding: 0.3em 0.5em 0em 0.5em;
     font-size: 12px;
     margin-right: 1.5em;
@@ -70,7 +74,7 @@
   }
 }
 
-a{
+.lien_operation{
   text-decoration: none;
   color: black;
 
@@ -113,24 +117,20 @@ a{
   display: flex;
   margin: 0.5em 1em 0 1em;
 
-    & .restaurant_name{
-      padding-right: 8em;
-      margin-bottom: 1em;
-    }
+  & .restaurant_name{
+    padding-right: 8em;
+    margin-bottom: 1em;
+  }
 
-      & span{
-        font-weight: bold;
-      }
-
-        & .icon_heart{
-          font-size:20px;
-          padding: 3px 0 0 0;
-        }
+  & span{
+    font-weight: bold;
+  }
 }
 
 .hearth_menu3{
   padding-left: 1.5em;
 }
+
 
 
 

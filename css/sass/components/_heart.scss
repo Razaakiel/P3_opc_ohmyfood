@@ -1,0 +1,34 @@
+.fa-heart{
+  position: absolute;
+  font-size:20px;
+}
+
+.heart_container {
+  & .heart {
+    position: absolute;
+    top: -999999px;
+  }
+}
+
+.heart_container label{
+  color:black;
+}
+
+.heart_container .heart:not(:checked) + label::before{
+  font-weight: 400;
+}
+
+.heart_container .heart:checked ~ label::before{
+  font-weight: 900;
+  color:red;
+  transition-duration:1s;
+  transition-timing-function:ease in;
+}
+
+.heart_label3{
+  transform: translate(1.4em);
+}
+
+.heart_label5, .heart_label6, .heart_label7,.heart_label8 {
+  padding-top: 0.5em;
+}

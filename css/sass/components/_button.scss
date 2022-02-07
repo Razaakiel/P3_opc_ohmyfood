@@ -4,6 +4,11 @@ button{
   padding: 1em 1.5em;
   border-radius: 40px;
   border: none;
+
+  &:hover{
+    background-color: lighten($color-primary,8);
+    box-shadow: 1px 3px 1px $color-primary;
+  }
 }
 
 .btn_order{
