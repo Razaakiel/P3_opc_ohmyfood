@@ -1,7 +1,5 @@
 .section{
-  display: inline-block;
   background-color:$color-primary;
-  height:100vh;
   line-height: 500px;
   left: 0;
   color:$white;
@@ -9,16 +7,18 @@
   font-size: 24px;
   position: absolute;
   width:100%;
-  height:100vh;
-  z-index: 999;
-  opacity:1;
-  animation:3s hide 1;
+  height:210vh;
+  z-index: -1;
+  opacity:0;
+  animation:hide 3s 1;
+  animation-duration: 5s;
+  animation-delay: -1s;
 }
-
 @keyframes hide {
-  0%,99% {opacity:1;}
+  0%,90% {opacity:1; z-index:999}
   100% {opacity:0;}
 }
+
 
 .loader{
   width: 50px;

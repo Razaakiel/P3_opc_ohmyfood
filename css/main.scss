@@ -1,5 +1,6 @@
 @import "../css/sass/utils/variables";
 @import "../css/sass/utils/mixins";
+@import "../css/sass/utils/functions";
 
 
 @import "../css/sass/Base/base";
@@ -7,6 +8,7 @@
 
 @import "../css/sass/components/button";
 @import "../css/sass/components/heart";
+@import "../css/sass/components/animation-menu";
 
 @import "../css/sass/layouts/header";
 @import "../css/sass/layouts/footer";

@@ -5,8 +5,7 @@
 
 .heart_container {
   & .heart {
-    position: absolute;
-    top: -999999px;
+    display: none;
   }
 }
 

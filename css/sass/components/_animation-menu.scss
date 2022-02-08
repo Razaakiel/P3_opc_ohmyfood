@@ -1,0 +1,33 @@
+@keyframes slideDown {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.appetizer__all, .main__all, .dessert__all {
+  animation: slideDown 10s 1;
+}
+
+.appetizer__one, .main__one, .dessert__one{
+  animation-duration: 2s;
+}
+
+.appetizer__two, .main_two, .dessert_two{
+  animation-duration:3s;
+}
+
+.appetizer__three, .main_three, .dessert_three{
+  animation-duration: 4s;
+}
+
+.buy{
+
+  & :hover{
+
+  }
+}
