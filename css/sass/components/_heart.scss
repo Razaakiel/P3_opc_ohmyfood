@@ -19,9 +19,12 @@
 
 .heart_container .heart:checked ~ label::before{
   font-weight: 900;
-  color:red;
+  background:linear-gradient(to bottom right, $color-secondary, $color-primary);
+  background-clip:text;
+  -webkit-background-clip:text;
+  color:transparent;
   transition-duration:1s;
-  transition-timing-function:ease in;
+  transition-timing-function:ease-in;
 }
 
 .heart_label3{

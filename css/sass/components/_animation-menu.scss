@@ -11,6 +11,25 @@
 
 .appetizer__all, .main__all, .dessert__all {
   animation: slideDown 10s 1;
+  cursor: grab;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+
+  &:hover::after {
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 900;
+    animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+    background: $color-tertiary;
+    color: $white;
+    width: 50px;
+    margin: -0.5em -1.5em -0.5em 1em;
+    padding: 0.8em 0.5em 0 0;
+  }
 }
 
 .appetizer__one, .main__one, .dessert__one{
@@ -25,9 +44,19 @@
   animation-duration: 4s;
 }
 
-.buy{
 
-  & :hover{
+@keyframes slide-left{
+  0%{transform:translateX(0);
+  }
+  100%{transform:translateX(-10px);
+  }
+}
 
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

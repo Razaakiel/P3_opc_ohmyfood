@@ -38,7 +38,7 @@ h2 {
 }
 
 button {
-  background-color: #a16be0;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   color: #FFFFFF;
   padding: 1em 1.5em;
   border-radius: 40px;
@@ -52,6 +52,7 @@ button:hover {
 .btn_order button {
   padding: 1em 2em;
   margin: 2em 0 5em 6.5em;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
 }
 
 .fa-heart {
@@ -73,9 +74,12 @@ button:hover {
 
 .heart_container .heart:checked ~ label::before {
   font-weight: 900;
-  color: red;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
   transition-duration: 1s;
-  transition-timing-function: ease in;
+  transition-timing-function: ease-in;
 }
 
 .heart_label3 {
@@ -98,6 +102,24 @@ button:hover {
 }
 .appetizer__all, .main__all, .dessert__all {
   animation: slideDown 10s 1;
+  cursor: grab;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.appetizer__all:hover::after, .main__all:hover::after, .dessert__all:hover::after {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 900;
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  background: #99E2D0;
+  color: #FFFFFF;
+  width: 50px;
+  margin: -0.5em -1.5em -0.5em 1em;
+  padding: 0.8em 0.5em 0 0;
 }
 
 .appetizer__one, .main__one, .dessert__one {
@@ -112,6 +134,22 @@ button:hover {
   animation-duration: 4s;
 }
 
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 header {
   display: flex;
   flex-direction: column;
@@ -194,7 +232,7 @@ footer .icon_footer {
 }
 
 .section {
-  background-color: #9356DC;
+  background: linear-gradient(to bottom right, #9356DC, #FF79DA);
   line-height: 500px;
   left: 0;
   color: #FFFFFF;
@@ -472,7 +510,7 @@ footer .icon_footer {
 }
 
 .price {
-  padding-top: 1em;
+  padding-top: 0.5em;
   font-weight: bold;
 }
 
