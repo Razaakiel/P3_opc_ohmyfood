@@ -44,9 +44,12 @@
   margin:1em;
 
   & .appetizer__name{
+    overflow: hidden;
+    width:227px;
 
     & .name_appetizer{
       font-weight: bold;
+
     }
 
     & .info_appetizer{
@@ -57,7 +60,6 @@
 
 .main{
   margin-bottom: 3em;
-
 }
 
 .main__all{
@@ -70,6 +72,9 @@
   margin:1em;
 
   & .main__name{
+    overflow: hidden;
+    width:227px;
+
     & .name_main{
       font-weight: bold;
     }
@@ -90,6 +95,8 @@
   margin:1em;
 
   & .dessert__name{
+    overflow: hidden;
+    width:227px;
 
     & .name_dessert{
       font-weight: bold;
@@ -104,4 +111,6 @@
 .price{
   padding-top: 0.5em;
   font-weight: bold;
+  margin-right: 0.5em;
+  margin-left: 1em;
 }

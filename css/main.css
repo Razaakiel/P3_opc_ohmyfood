@@ -45,14 +45,13 @@ button {
   border: none;
 }
 button:hover {
-  background-color: #a978e3;
+  background-color: white;
   box-shadow: 1px 3px 1px #9356DC;
 }
 
 .btn_order button {
   padding: 1em 2em;
   margin: 2em 0 5em 6.5em;
-  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
 }
 
 .fa-heart {
@@ -104,22 +103,20 @@ button:hover {
   animation: slideDown 10s 1;
   cursor: grab;
   overflow: hidden;
-  text-overflow: ellipsis;
   white-space: nowrap;
 }
 .appetizer__all:hover::after, .main__all:hover::after, .dessert__all:hover::after {
   content: "\f058";
   font-family: "Font Awesome 5 Free";
-  display: block;
   font-size: 18px;
   text-align: center;
   font-weight: 900;
-  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
   background: #99E2D0;
   color: #FFFFFF;
   width: 50px;
-  margin: -0.5em -1.5em -0.5em 1em;
-  padding: 0.8em 0.5em 0 0;
+  margin: -0.5em -1em -0.5em 0em;
+  padding: 0.8em 0.5em 0 0em;
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
 .appetizer__one, .main__one, .dessert__one {
@@ -136,10 +133,10 @@ button:hover {
 
 @keyframes slide-left {
   0% {
-    transform: translateX(0);
+    transform: translateX(50px);
   }
   100% {
-    transform: translateX(-10px);
+    transform: translateX(0);
   }
 }
 @keyframes rotate-center {
@@ -466,6 +463,10 @@ footer .icon_footer {
   padding: 0.5em;
   margin: 1em;
 }
+.appetizer__all .appetizer__name {
+  overflow: hidden;
+  width: 227px;
+}
 .appetizer__all .appetizer__name .name_appetizer {
   font-weight: bold;
 }
@@ -486,6 +487,10 @@ footer .icon_footer {
   padding: 0.5em;
   margin: 1em;
 }
+.main__all .main__name {
+  overflow: hidden;
+  width: 227px;
+}
 .main__all .main__name .name_main {
   font-weight: bold;
 }
@@ -502,6 +507,10 @@ footer .icon_footer {
   padding: 0.5em;
   margin: 1em;
 }
+.dessert__all .dessert__name {
+  overflow: hidden;
+  width: 227px;
+}
 .dessert__all .dessert__name .name_dessert {
   font-weight: bold;
 }
@@ -512,6 +521,8 @@ footer .icon_footer {
 .price {
   padding-top: 0.5em;
   font-weight: bold;
+  margin-right: 0.5em;
+  margin-left: 1em;
 }
 
 .title_delice {

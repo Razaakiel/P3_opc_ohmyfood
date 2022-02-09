@@ -6,7 +6,7 @@ button{
   border: none;
 
   &:hover{
-    background-color: lighten($color-primary,8);
+    background-color: lighten($color-primary,80);
     box-shadow: 1px 3px 1px $color-primary;
   }
 }
@@ -16,6 +16,5 @@ button{
   & button{
     padding:1em 2em;
     margin: 2em 0 5em 6.5em;
-    background: linear-gradient(to bottom right, $color-secondary, $color-primary);
   }
 }

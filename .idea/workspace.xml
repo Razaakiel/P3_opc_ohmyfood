@@ -7,11 +7,10 @@
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/sass/components/_animation-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/components/_animation-menu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/sass/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sass/components/_heart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/components/_heart.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/sass/pages/_menu3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/pages/_menu3.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu3.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu1.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,7 @@
       <workItem from="1644247234332" duration="242000" />
       <workItem from="1644293965892" duration="8269000" />
       <workItem from="1644306072258" duration="7101000" />
-      <workItem from="1644391343487" duration="3926000" />
+      <workItem from="1644391343487" duration="15682000" />
     </task>
     <servers />
   </component>
