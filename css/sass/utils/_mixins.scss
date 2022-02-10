@@ -8,3 +8,13 @@
   object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
+
+@mixin ellipsis{
+  width: 100%;
+  > p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block
+  }
+}

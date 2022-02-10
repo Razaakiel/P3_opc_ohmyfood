@@ -1,5 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@keyframes slideDown {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes rotate-90-cw {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-90-cw {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 html, body {
   font-size: 14px;
   box-sizing: border-box;
@@ -89,34 +119,70 @@ button:hover {
   padding-top: 0.5em;
 }
 
-@keyframes slideDown {
-  from {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 .appetizer__all, .main__all, .dessert__all {
   animation: slideDown 10s 1;
   cursor: grab;
+  position: relative;
   overflow: hidden;
-  white-space: nowrap;
+  max-width: 300px;
 }
-.appetizer__all:hover::after, .main__all:hover::after, .dessert__all:hover::after {
-  content: "\f058";
-  font-family: "Font Awesome 5 Free";
-  font-size: 18px;
-  text-align: center;
-  font-weight: 900;
+.appetizer__all > *, .main__all > *, .dessert__all > * {
+  display: inline-block;
+  transition: all 300ms;
+}
+.appetizer__all .check, .main__all .check, .dessert__all .check {
   background: #99E2D0;
   color: #FFFFFF;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 20px;
   width: 50px;
-  margin: -0.5em -1em -0.5em 0em;
-  padding: 0.8em 0.5em 0 0em;
-  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  height: 36px;
+  text-align: center;
+  padding: 12px 0 0 0;
+  border-radius: 0 10px 10px 0;
+  display: inline-block;
+  transform: translateY(-1px);
+  transform: translate(50px);
+}
+.appetizer__all .name_appetizer, .appetizer__all .info_appetizer, .main__all .name_appetizer, .main__all .info_appetizer, .dessert__all .name_appetizer, .dessert__all .info_appetizer {
+  width: 100%;
+}
+.appetizer__all .name_appetizer > p, .appetizer__all .info_appetizer > p, .main__all .name_appetizer > p, .main__all .info_appetizer > p, .dessert__all .name_appetizer > p, .dessert__all .info_appetizer > p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+.appetizer__all .name_main, .appetizer__all .info_main, .main__all .name_main, .main__all .info_main, .dessert__all .name_main, .dessert__all .info_main {
+  width: 100%;
+}
+.appetizer__all .name_main > p, .appetizer__all .info_main > p, .main__all .name_main > p, .main__all .info_main > p, .dessert__all .name_main > p, .dessert__all .info_main > p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+.appetizer__all .name_dessert, .appetizer__all .info_dessert, .main__all .name_dessert, .main__all .info_dessert, .dessert__all .name_dessert, .dessert__all .info_dessert {
+  width: 100%;
+}
+.appetizer__all .name_dessert > p, .appetizer__all .info_dessert > p, .main__all .name_dessert > p, .main__all .info_dessert > p, .dessert__all .name_dessert > p, .dessert__all .info_dessert > p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+.appetizer__all:hover .name_appetizer, .main__all:hover .name_appetizer, .dessert__all:hover .name_appetizer {
+  width: 70%;
+}
+.appetizer__all:hover .check, .main__all:hover .check, .dessert__all:hover .check {
+  transform: translate(0);
+}
+.appetizer__all:hover .fa-check-circle, .main__all:hover .fa-check-circle, .dessert__all:hover .fa-check-circle {
+  -webkit-animation: rotate-90-cw 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: rotate-90-cw 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .appetizer__one, .main__one, .dessert__one {
@@ -131,22 +197,6 @@ button:hover {
   animation-duration: 4s;
 }
 
-@keyframes slide-left {
-  0% {
-    transform: translateX(50px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes rotate-center {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 header {
   display: flex;
   flex-direction: column;
