@@ -74,7 +74,7 @@ button {
   border: none;
 }
 button:hover {
-  background-color: white;
+  opacity: 0.9;
   box-shadow: 1px 3px 1px #9356DC;
 }
 
@@ -416,6 +416,7 @@ footer .title_footer {
 
   .foot_tab {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 }

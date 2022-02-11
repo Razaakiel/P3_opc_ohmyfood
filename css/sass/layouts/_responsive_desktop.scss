@@ -51,6 +51,7 @@
 
   .foot_tab{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 }
