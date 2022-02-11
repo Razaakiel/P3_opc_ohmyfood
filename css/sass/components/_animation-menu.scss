@@ -29,7 +29,7 @@
   }
 
   .name_appetizer, .info_appetizer{
- @include ellipsis;
+    @include ellipsis;
   }
 
   .name_main, .info_main{
@@ -40,13 +40,15 @@
     @include ellipsis;
   }
 
-
   &:hover{
-    .name_appetizer{
-      width: 70%;
+    .appetizer__name, .main__name, .dessert__name{
+      width: 65%;
     }
     .check{
       transform: translate(0);
+    }
+    .price{
+      transform: translate(-50px);
     }
     .fa-check-circle{
       -webkit-animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -65,6 +67,10 @@
 
 .appetizer__three, .main_three, .dessert_three{
   animation-duration: 4s;
+}
+
+.appetizer__four{
+  animation-duration: 5s;
 }
 
 
