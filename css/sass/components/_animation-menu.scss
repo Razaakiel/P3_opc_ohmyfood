@@ -3,7 +3,7 @@
   cursor: grab;
   position: relative;
   overflow: hidden;
-  max-width: 300px;
+  min-width: 280px;
 
   &>* {
     display: inline-block;

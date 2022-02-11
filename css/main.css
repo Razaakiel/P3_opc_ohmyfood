@@ -128,7 +128,7 @@ button:hover {
   cursor: grab;
   position: relative;
   overflow: hidden;
-  max-width: 300px;
+  min-width: 280px;
 }
 .appetizer__all > *, .main__all > *, .dessert__all > * {
   display: inline-block;
