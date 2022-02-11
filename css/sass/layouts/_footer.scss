@@ -8,17 +8,17 @@ footer{
     font-size: 18px;
     margin-bottom: 1em;
 
-  & a{
+    & a{
 
-    & :hover{
-      background:none;
+      & :hover{
+        background:none;
+      }
     }
   }
-  }
 
-    & .icon_footer {
-      margin-right: 0.5em;
-    }
+  & .icon_footer {
+    margin-right: 0.5em;
+  }
 }
 
 .proposition{

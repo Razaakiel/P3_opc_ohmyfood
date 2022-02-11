@@ -80,7 +80,7 @@ button:hover {
 
 .btn_order button {
   padding: 1em 3em;
-  margin: 2em 0 5em 6.5em;
+  margin: 2em 0 5em 0em;
 }
 
 .fa-heart {
@@ -115,7 +115,8 @@ button:hover {
 }
 
 .heart_label1, .heart_label2, .heart_label3, .heart_label4 {
-  transform: translate(260px, -60px);
+  margin-left: 80%;
+  transform: translateY(-55px);
 }
 
 .heart_label5, .heart_label6, .heart_label7, .heart_label8 {
@@ -350,10 +351,6 @@ footer .icon_footer {
   }
 }
 @media screen and (min-width: 425px) {
-  body {
-    width: 100%;
-  }
-
   .operation {
     display: flex;
     flex-direction: column;
@@ -363,27 +360,65 @@ footer .icon_footer {
     min-width: 425px;
   }
 }
-.store_restaurant {
-  display: flex;
-  flex-direction: column;
-  border: solid red;
-  margin-bottom: 0px;
+.appetizer, .main, .dessert {
+  flex-wrap: wrap;
 }
-.store_restaurant .store__pictures {
-  border: solid black;
+
+.btn_order {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  margin-left: 0px;
 }
 
 footer .title_footer {
-  text-align: center;
   margin-bottom: 2em;
 }
-footer .foot_tab {
-  display: flex;
-  justify-content: space-around;
-}
 
+@media screen and (min-width: 768px) {
+  /*--------------------------------------*/
+  /*----------------ACCUEIL---------------*/
+  /*--------------------------------------*/
+  .store_restaurant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .store_restaurant .store__pictures {
+    display: flex;
+  }
+  .store_restaurant .store__pictures .resp_tab {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .store_restaurant .store__pictures .resp_tab .lien_menu {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .store_restaurant .store__pictures .resp_tab .lien_menu .restaurant {
+    width: 100%;
+  }
+
+  .heart_container_menu {
+    position: relative;
+    transform: translate(-80px);
+    margin-top: 15.5em;
+  }
+
+  /*--------------------------------------*/
+  /*-----------------MENU-----------------*/
+  /*--------------------------------------*/
+  .appetizer, .main, .dessert {
+    display: flex;
+    justify-content: center;
+  }
+
+  .foot_tab {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 .top {
   display: flex;
   flex-direction: column;
@@ -482,8 +517,11 @@ footer .foot_tab {
   padding: 0.2em 0.5em;
   color: #2c9c81;
   font-weight: bold;
-  margin: -8em 0 7em 15em;
   position: relative;
+  display: flex;
+  margin-left: 72%;
+  transform: translateY(-120px);
+  margin-bottom: -20px;
 }
 
 .restaurant_description {

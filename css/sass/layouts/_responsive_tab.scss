@@ -1,7 +1,5 @@
 @media screen and (min-width: 425px) {
-  body {
-    width: 100%;
-  }
+
 
 
   .operation {
@@ -15,29 +13,18 @@
   }
 }
 
-.store_restaurant{
-  display: flex;
-  flex-direction: column;
-  border: solid red;
-  margin-bottom: 0px;
-
-  .store__pictures{
-    border: solid black;
-    display: flex;
-    justify-content: space-around;
-
-  }
+.appetizer, .main, .dessert{
+  flex-wrap: wrap;
 }
 
+.btn_order{
+  display: flex;
+  justify-content: center;
+  margin-left: 0px;
+}
 
 footer{
   .title_footer{
-    text-align: center;
     margin-bottom: 2em;
-  }
-
-  .foot_tab{
-    display: flex;
-    justify-content: space-around;
   }
 }

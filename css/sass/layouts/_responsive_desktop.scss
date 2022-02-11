@@ -1,0 +1,56 @@
+@media screen and (min-width: 768px) {
+
+
+  /*--------------------------------------*/
+  /*----------------ACCUEIL---------------*/
+  /*--------------------------------------*/
+
+  .store_restaurant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .store__pictures{
+      display: flex;
+
+
+      .resp_tab{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .lien_menu{
+          display: flex;
+          width: 100%;
+          flex-wrap: wrap;
+
+          .restaurant{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .heart_container_menu{
+    position: relative;
+    transform: translate(-80px);
+    margin-top: 15.5em;
+  }
+
+  /*--------------------------------------*/
+  /*-----------------MENU-----------------*/
+  /*--------------------------------------*/
+
+  .appetizer, .main, .dessert{
+    display: flex;
+    justify-content: center;
+  }
+
+  .foot_tab{
+    display: flex;
+    justify-content: space-between;
+  }
+}
