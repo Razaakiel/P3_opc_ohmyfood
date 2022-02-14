@@ -302,7 +302,7 @@ footer .icon_footer {
   z-index: -1;
   opacity: 0;
   animation: hide 3s 1;
-  animation-duration: 0s;
+  animation-duration: 3s;
 }
 
 @keyframes hide {
