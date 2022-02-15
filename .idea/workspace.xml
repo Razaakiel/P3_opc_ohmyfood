@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd9681e4-6fb4-4ed4-a459-a6a01202ae41" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/prefixed.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sass/layouts/_responsive_desktop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/sass/layouts/_responsive_desktop.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +107,9 @@
       <workItem from="1644564709109" duration="20159000" />
       <workItem from="1644824406813" duration="186000" />
       <workItem from="1644825063588" duration="3952000" />
+      <workItem from="1644831335875" duration="206000" />
+      <workItem from="1644848790748" duration="654000" />
+      <workItem from="1644914312757" duration="702000" />
     </task>
     <servers />
   </component>

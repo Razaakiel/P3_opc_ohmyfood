@@ -414,6 +414,16 @@ footer .title_footer {
     justify-content: center;
   }
 
+  .menu {
+    height: 75vh;
+  }
+  .menu .title_appetizer {
+    margin-top: 5em;
+  }
+  .menu .appetizer, .menu .main, .menu .dessert {
+    margin-bottom: 8em;
+  }
+
   .foot_tab {
     display: flex;
     flex-wrap: wrap;
